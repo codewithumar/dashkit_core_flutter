@@ -1,0 +1,42 @@
+name: fake_api_flutter
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  dash_kit_core: ^4.5.0
+  build_runner: ^2.4.11
+  freezed: ^2.5.2
+  freezed_annotation: ^2.4.4
+  built_value_generator: ^8.9.2
+  built_value: ^8.9.2
+  async_redux: ^23.1.1
+  dio: ^5.5.0+1
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  built_collection: ^5.1.1
+  flutter_test:
+    sdk: flutter
+  build: ^2.4.1
+  flutter_lints: ^3.0.0
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Black.ttf
+        - asset: assets/fonts/Roboto-BlackItalic.ttf
+          style: italic
